@@ -83,6 +83,8 @@ We began by analyzing the distribution of calories and protein across the recipe
 
 Calories Distribution: Most recipes contain fewer than 500 calories, with a noticeable right-skew in the distribution. This suggests that lower-calorie recipes are more common on Food.com. However, there are a few outliers—recipes that contain well over 1,000 calories, which are likely indulgent or special-occasion dishes.
 
+<img src="assets/calorie-dist.png" alt="Calories and Protein Distribution" width="800" height="600">
+
 Protein Distribution: The protein content of recipes varies significantly, with most recipes containing between 0 and 30 grams of protein. However, there are recipes with exceptionally high protein content (50g or more), likely catering to health-conscious individuals or those seeking high-protein meals.
 
 These initial observations provide context for our further analysis on how calories and protein correlate with user ratings.
