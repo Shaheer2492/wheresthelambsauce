@@ -97,12 +97,12 @@ Next, we conducted bivariate analyses to examine the relationship between recipe
 
 Calories vs. Average Rating: We created box plots to visualize the distribution of ratings across three categories of calorie levels: low, medium, and high. The plots showed that recipes with medium-calorie content tend to have higher average ratings. Interestingly, both low and high-calorie recipes received more mixed ratings.
 
-<img src="assets/calorie-vs-avg.png" alt="Calories vs Average Rating" width="600" height="600">
+<img src="assets/calorie-vs-avg.png" alt="Calories vs Average Rating" width="800" height="600">
 
 
 Protein vs. Average Rating: Similarly, we analyzed protein levels against ratings. Recipes with higher protein content (above 20 grams) generally received more positive ratings. This could be due to the growing preference for high-protein diets in the health and fitness community.
 
-<img src="assets/protein_vs_avg.png" alt="Protein vs Average Ratings" width="600" height="600">
+<img src="assets/protein_vs_avg.png" alt="Protein vs Average Ratings" width="800" height="600">
 
 
 These analyses suggest that both calorie and protein content play a role in determining the popularity of a recipe.
@@ -114,22 +114,22 @@ In this section, we explore the relationship between nutritional content (calori
 **Average Rating Over Time by Calorie Level**
 We grouped the recipes by year and calorie level (low, medium, high) and calculated the average rating for each group. From the resulting visualization, we observe how different calorie categories have been rated over the years. This analysis helps identify if there are shifts in user preferences for lower-calorie or higher-calorie recipes. The chart shows that recipes with medium-calorie content have generally maintained a consistent rating, while low and high-calorie recipes show more fluctuations, particularly in recent years.
 
-<img src="assets/time-calorie.png" alt="Average Rating Over Time by Calorie Level" width="600" height="600">
+<img src="assets/time-calorie.png" alt="Average Rating Over Time by Calorie Level" width="800" height="600">
 
 **Number of Ratings Over Time by Calorie Level**
 Next, we examined how the number of ratings for recipes in each calorie level has changed over time. The chart highlights that the number of ratings for all calorie levels has decreased significantly after 2010, which could be attributed to changes in user behavior on the platform or decreased engagement with older recipes. The early years, especially around 2008, show a large number of ratings, particularly for high-calorie recipes, possibly reflecting a historical preference for indulgent or special-occasion dishes.
 
-<img src="assets/num-time-calorie.png" alt="Number of Ratings Over Time by Calorie Level" width="600" height="600">
+<img src="assets/num-time-calorie.png" alt="Number of Ratings Over Time by Calorie Level" width="800" height="600">
 
 **Average Rating Over Time by Protein Level**
 Similarly, we grouped recipes by protein content (low, medium, high) and analyzed their average rating over time. Recipes with higher protein content, especially those categorized as medium or high-protein, have generally received favorable ratings. This trend may reflect growing awareness of protein's role in a healthy diet. The chart reveals that while the average rating for high-protein recipes remains relatively steady, low-protein recipes have experienced greater variability in ratings over time.
 
-<img src="assets/time-protein.png" alt="Average Rating Over Time by Protein Level" width="600" height="600">
+<img src="assets/time-protein.png" alt="Average Rating Over Time by Protein Level" width="800" height="600">
 
 **Number of Ratings Over Time by Protein Level**
 Lastly, we explored the number of ratings over time for recipes grouped by protein content. Similar to the calorie level trends, there has been a general decline in the number of ratings since 2010, especially for high-protein recipes. This could indicate a decline in user engagement on the platform or the emergence of other platforms that capture users' attention for sharing and reviewing recipes.
 
-<img src="assets/num-time-protein.png" alt="Number of Ratings Over Time by Protein Level" width="600" height="600">
+<img src="assets/num-time-protein.png" alt="Number of Ratings Over Time by Protein Level" width="800" height="600">
 
 # Assessment of Missing
 
@@ -148,11 +148,11 @@ To better understand the missingness, we visualized the patterns by year and cal
 
 Missingness by Year: We found that the proportion of missing ratings and reviews fluctuates over time. For instance, more recent years had slightly higher missingness in reviews, possibly due to a drop in user engagement with older recipes.
 
-<img src="assets/prop-missing-rate-year.png" alt="" width="600" height="600">
+<img src="assets/prop-missing-rate-year.png" alt="" width="800" height="600">
 
 Missingness by Calorie Level: We also looked at whether the nutritional content (specifically, calorie levels) impacted missingness. Recipes with higher calories seemed to have a slightly higher proportion of missing ratings, which could indicate that users might avoid rating high-calorie recipes.
 
-<img src="assets/prop-missing-rate-calorie.png" alt="" width="600" height="600">
+<img src="assets/prop-missing-rate-calorie.png" alt="" width="800" height="600">
 
 These visualizations allowed us to explore potential systematic missingness related to both time and nutritional content.
 
@@ -167,7 +167,7 @@ This NMAR analysis suggests that reviews might be missing because users lack mot
 4. Testing Missingness Dependency
 To further investigate whether missingness in rating was related to certain features, we conducted permutation tests for calories, protein, and days_since_submission. The goal was to test if the missingness of rating was dependent on these features.
 
-<img src="assets/dist-missing-nonmissing.png" alt="" width="600" height="600">
+<img src="assets/dist-missing-nonmissing.png" alt="" width="800" height="600">
 
 **Calories:**
 
