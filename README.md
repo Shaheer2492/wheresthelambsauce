@@ -1,5 +1,5 @@
 # Analysis on how the Nutritional Content of Recipes Correlate with their Popularity
-Authors: Shaheer Khan & Taranvir Chima
+Author: Shaheer Khan
 
 # Overview
 
